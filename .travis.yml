@@ -1,0 +1,14 @@
+language: node_js
+node_js: "0.10"
+install: 
+  - "npm install grunt-cli -g"
+  - npm install
+notifications: 
+  email: 
+    on_success: never
+
+env:
+  - [
+      {secure: "Ky5aHSa0+K0YEPSYAkEBae8MbzLlfz4iwBvRgID8EPpmfjjkv+nMoqlhSvafMiDs5CXf0uGqLRrmeEdv1O6Bn68+ovgRkutBoeLGAkOtigVbQSys104EwcDoDyITBK+1zW+1OQzqvmHPe+26wNidZUjUS6W9aY5bu3pFLErmyX0="},
+      {secure: "X4CdO0rRxAxXaTBO/r0ifK/F5FVM7bvP1UV2xQGXtuiihC8bqjNWBs0qPaqCSnzckCIqLUmyaC7XN+DV972euM/A/xUjBaMBA36z/8dygBL0L2YwLM1V0xB7v+x6esmOgFYGNzel2rLLhfhgvUsibzu8mroz0ST0fwesw7W9LlA="}
+    ]
