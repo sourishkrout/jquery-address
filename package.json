@@ -1,0 +1,36 @@
+{
+  "name": "jquery-address",
+  "version": "0.0.0",
+  "description": "The jQuery Address plugin provides powerful deep linking capabilities and allows the  creation of unique virtual addresses that can point to a website section or an  application state. It enables a number of important capabilities including:",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-saucelabs": "~4.0.4",
+    "process": "~0.5.1"
+  },
+  "devDependencies": {
+    "process": "~0.5.1",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-saucelabs": "~4.0.4"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sourishkrout/jquery-address.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/sourishkrout/jquery-address/issues"
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "60007ac94b581837c09e8924dccd94b9fdad129a"
+}
